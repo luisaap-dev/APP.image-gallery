@@ -23,7 +23,10 @@ function ImageList({ images, onUpdateImage, onDeleteImage }) {
                   <td>{image.id}</td>
                   <td><input type="text" className="form-control" value={image.name} onChange={(e) => onUpdateImage(image.id, e.target.value, image.imageURL)} /></td>
                   <td><input type="text" className="form-control" value={image.imageURL} onChange={(e) => onUpdateImage(image.id, image.name, e.target.value)} /></td>
-                  <td><button className="btn btn-danger" onClick={() => onDeleteImage(image.id)}>Eliminar</button></td>
+                  <td>
+                    <button className="btn btn-danger me-3" onClick={() => onDeleteImage(image.id)}>Eliminar</button>
+                    <button className="btn btn-primary" onClick={() => onUpdateImage(image.id, image.name, image.imageURL)}>Actualizar</button>
+                  </td>
                 </tr>
               ))}
             </tbody>
