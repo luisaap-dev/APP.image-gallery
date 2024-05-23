@@ -35,7 +35,7 @@ npm install
 1. Inicia el servidor de desarrollo:
 
 ```bash
-npm start
+npm run dev
 ```
 
 2. Abre tu navegador y visita `http://localhost:3000` para usar la aplicación de Galería de Imágenes.
