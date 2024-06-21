@@ -15,7 +15,7 @@ Este repositorio contiene una aplicación de Galería de Imágenes construida co
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/luisaap-dev/image-gallery-app.git
+git clone https://github.com/luisaap-dev/APP.image-gallery
 ```
 
 2. Navega hasta el directorio del proyecto:
